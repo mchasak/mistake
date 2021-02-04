@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Cirka';
+    src: url('Cirka-Light.eot');
+    src: url('Cirka-Light.eot?#iefix') format('embedded-opentype'),
+        url('Cirka-Light.woff2') format('woff2'),
+        url('Cirka-Light.woff') format('woff'),
+        url('Cirka-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cirka';
+    src: url('Cirka-Regular.eot');
+    src: url('Cirka-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Cirka-Regular.woff2') format('woff2'),
+        url('Cirka-Regular.woff') format('woff'),
+        url('Cirka-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cirka';
+    src: url('Cirka-Bold.eot');
+    src: url('Cirka-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Cirka-Bold.woff2') format('woff2'),
+        url('Cirka-Bold.woff') format('woff'),
+        url('Cirka-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

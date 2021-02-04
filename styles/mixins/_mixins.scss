@@ -1,0 +1,99 @@
+// DEFAULT STATE BTNS 
+
+@mixin default($color: primary) {
+    @if ($color == primary) {
+        color: #000;
+        border: solid 1px $raven;
+    }
+
+    @if ($color == secondary) {
+        color: $blue;
+        border: solid 1px $orange;
+    }
+
+    @if ($color == tertiary) {
+        color: #000;
+        border: solid 1px $violet;
+    }
+}
+
+// SIZE BTN HOVER EFFECT
+
+@mixin btn-hover($color: primary, $effect: none) {
+    @if ($color == primary) {
+        color: #000;
+        @if ($effect == hover) {
+            &:hover {
+                color: #000;
+                border: solid 1px $orange;
+            }
+        }
+    }
+
+    @if ($color == secondary) {
+        color: $blue;
+        @if ($effect == hover) {
+            &:hover {
+                color: $orange;
+                border: solid 1px $blue;
+            }
+        }
+    }
+
+    @if ($color == tertiary) {
+        color: $orange;
+        @if ($effect == hover) {
+            &:hover {
+                color: $raven;
+                border: solid 1px #000;
+            }
+        }
+    }
+}
+
+// SIZE BTN ACTIVE
+
+@mixin bgcolor($color: primary) {
+    @if ($color == primary) {
+        background-color: $orange;
+        color: #fff;
+        border: solid 1px $orange;
+    }
+
+    @if ($color == secondary) {
+        background-color: $blue;
+        color: $orange;
+        border: solid 1px $blue;
+    }
+
+    @if ($color == tertiary) {
+        background-color: $violet;
+        color: $raven;
+        border: solid 1px $violet;
+    }
+}
+
+// BADGE BTN ACTIVE
+
+@mixin active($color: primary) {
+    @if ($color == primary) {
+        background-color: $raven;
+        color: #fff;
+        border: solid 1px $raven;
+        opacity: 30%;
+    }
+
+    @if ($color == secondary) {
+        background-color: $livid-brown;
+        color: $orange;
+        border: solid 1px $livid-brown;
+        opacity: 80%;
+    }
+    
+    @if ($color == tertiary) {
+        background-color: $vivid-sand;
+        color: #000;
+        border: solid 1px $vivid-sand;
+        opacity: 50%;
+    }
+}
